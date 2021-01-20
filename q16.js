@@ -7,7 +7,7 @@ function run() {
     // let arrYears= [];
     function yearRange(startY, endY) {
     let yearRangeList= [] ;
-    for (i = startY; i < endY; i++) {
+    for (i = startY; i <= endY; i++) {
     yearRangeList.push (i);
     }
     
